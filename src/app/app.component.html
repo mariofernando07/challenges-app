@@ -1,7 +1,8 @@
-<StackLayout>
-  <ns-current-challenge></ns-current-challenge>
+<GridLayout rows="auto, auto", columns="*">
+  <ns-challenge-edit (input)="getChallenge($event)" row="0" col="0"></ns-challenge-edit>
+  <ns-current-challenge [currentChallenge]="currentChallenge" row="1" col="0"></ns-current-challenge>
   <!-- <ns-stack></ns-stack> -->
   <!-- <ns-flexbox></ns-flexbox> -->
   <!-- <ns-grid></ns-grid> -->
   <!-- <ns-absolute></ns-absolute> -->
-</StackLayout>
+</GridLayout>
