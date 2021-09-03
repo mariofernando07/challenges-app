@@ -1,0 +1,5 @@
+<GridLayout rows="auto,*" columns="2*, *">
+  <TextField class="formControl" [(ngModel)]="challengeField" row="0" col="0" hint="Challenge title"></TextField>
+  <Button class="btn" text="Set Challenge" (tap)="onSetChallenge()" row="0" col="1"></Button>
+  <Label class="title" [text]="currentChallenge" row="1" col="0" colSpan="2"></Label>
+</GridLayout>

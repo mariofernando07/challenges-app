@@ -1,0 +1,26 @@
+.btn {
+  background: #7c015d;
+  border-width: 1;
+  border-color: #7c015d;
+  color: white;
+  padding: 5 10;
+  border-radius: 30%;
+  margin: 5 0;
+}
+
+.title {
+  font-size: 20;
+  text-align: center;
+  color: #7c015d;
+}
+
+.formControl {
+  border-bottom-color: #7c015d;
+  border-bottom-width: 2;
+  padding: 5 8;
+}
+
+GridLayout {
+  /* border-color: green;
+  border-width: 2; */
+}
